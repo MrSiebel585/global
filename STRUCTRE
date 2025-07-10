@@ -1,0 +1,77 @@
+#!/bin/bash
+
+# === Setup Base ===
+BASE="$HOME/omniscient"
+LOG="$BASE/migration.log"
+mkdir -p "$BASE"
+echo "Migration Log - $(date)" > "$LOG"
+
+# === Create Target Directory Tree ===
+declare -A STRUCTURE=(
+  [ai]="ai/omega_seeker ai"
+  [osint]="osint/suites osint/pii osint/scraping"
+  [framework]="framework/omniscientctl framework/setup framework/structure"
+  [blackhat]="blackhat"
+  [scripts]="scripts"
+  [docs]="docs"
+  [logs]="logs"
+  [media]="media/Music media/Pictures media/Videos"
+  [snapshots]="snapshots"
+  [system]="system/python system"
+)
+
+for group in "${!STRUCTURE[@]}"; do
+  for path in ${STRUCTURE[$group]}; do
+    mkdir -p "$BASE/$path"
+  done
+done
+
+# === Move AI-related files ===
+mv -v "$HOME"/omega_seeker*.py "$BASE/ai/omega_seeker" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/omega_seeker_meta_search.md "$BASE/ai/omega_seeker" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/ai_logs_pipeline "$BASE/ai/" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/impreza_ai_diag.service "$BASE/ai/" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/query_docs_hf.py "$BASE/ai/" 2>/dev/null | tee -a "$LOG"
+
+# === Move OSINT tools ===
+mv -v "$HOME"/osint "$BASE/osint/suites" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/osintBarfSuite "$BASE/osint/suites" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/osintpiimultisearchnames "$BASE/osint/suites" 2>/dev/null | tee -a "$LOG"
+
+mv -v "$HOME"/osintpiibarf* "$BASE/osint/pii" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/scrape* "$BASE/osint/scraping" 2>/dev/null | tee -a "$LOG"
+
+# === Move Framework components ===
+mv -v "$HOME"/index_bootstrap_root_framework_omniscientctl "$BASE/framework/omniscientctl" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/setup_omniscient_custom_home_dirs.sh "$BASE/framework/setup" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/immutable__system_structure.md "$BASE/framework/structure" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/directory_tree_scaffolding.md "$BASE/framework/structure" 2>/dev/null | tee -a "$LOG"
+
+# === Move Blackhat tools ===
+mv -v "$HOME"/blackhatlmpipeline.sh "$BASE/blackhat" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/automate-zap-security-tests-with-selenium-webdriver-* "$BASE/blackhat" 2>/dev/null | tee -a "$LOG"
+
+# === Move General Scripts ===
+mv -v "$HOME"/clean_sweep.sh "$BASE/scripts" 2>/dev/null | tee -a "$LOG"
+
+# === Move Docs and Notes ===
+mv -v "$HOME"/notes.save "$BASE/docs" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/profile_index_all_scaffolding_framework_management_scripts "$BASE/docs" 2>/dev/null | tee -a "$LOG"
+
+# === Move Logs (assuming logs dir already exists) ===
+mv -v "$HOME"/logs "$BASE/logs" 2>/dev/null | tee -a "$LOG"
+
+# === Move Media ===
+mv -v "$HOME"/Music "$BASE/media/" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/Pictures "$BASE/media/" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/Videos "$BASE/media/" 2>/dev/null | tee -a "$LOG"
+
+# === Move Snapshots ===
+mv -v "$HOME"/snap "$BASE/snapshots" 2>/dev/null | tee -a "$LOG"
+
+# === Move System-level files ===
+mv -v "$HOME"/init.lmstudio.sh "$BASE/system/" 2>/dev/null | tee -a "$LOG"
+mv -v "$HOME"/python "$BASE/system/python" 2>/dev/null | tee -a "$LOG"
+
+# === Summary ===
+echo -e "\n✅ Migration complete. Check log at $LOG"

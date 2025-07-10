@@ -1,0 +1,112 @@
+Absolute Path,Description,Placement,Uses/Intended Uses,How to Use/Execute,Notes/Recommendations,Log Location,Aliases,Filename
+/opt/omniscient/add2path,Script or tool to add directories to system PATH.,/opt/omniscient/other,CLI Tool,Open or inspect manually,OK,,,add2path
+/opt/omniscient/admin_interface,Admin panel or UI interface entry point.,/opt/omniscient/other,Interface / UI,Open or inspect manually,OK,,,admin_interface
+/opt/omniscient/ai,"AI-related directory, likely contains core AI logic or models.",/opt/omniscient/other,Logging / Auditing,Open or inspect manually,Consider logrotate,,,ai
+/opt/omniscient/ai_commands_summarizer.py,Python script to summarize AI command outputs or usage.,/opt/omniscient/ai,AI Processing,python3 ai_commands_summarizer.py,OK,,alias ai_commands_summarizer='python3 /opt/omniscient/scripts/ai_commands_summarizer.py',ai_commands_summarizer.py
+/opt/omniscient/ai_details,Contains configuration or metadata related to AI components.,/opt/omniscient/other,AI Processing,Open or inspect manually,OK,,,ai_details
+/opt/omniscient/ai_scraping_google_proxy.py,"Google search scraper using proxy, likely for OSINT.",/opt/omniscient/ai,Data Collection,python3 ai_scraping_google_proxy.py,OK,,alias ai_scraping_google_proxy='python3 /opt/omniscient/scripts/ai_scraping_google_proxy.py',ai_scraping_google_proxy.py
+/opt/omniscient/all_logged_filenames.log,Log file of all previously logged filenames.,/opt/omniscient/logs,Logging / Auditing,less all_logged_filenames.log,Consider logrotate,/opt/omniscient/logs/all_logged_filenames.log,,all_logged_filenames.log
+/opt/omniscient/appendlogstodirs,Script to append logs to corresponding directory listings.,/opt/omniscient/logs,Logging / Auditing,Open or inspect manually,Consider logrotate,/opt/omniscient/logs/appendlogstodirs,,appendlogstodirs
+/opt/omniscient/arsenal,"Directory of tools and exploits, part of offensive/security toolkit.",/opt/omniscient/offensive,CLI Tool,Open or inspect manually,OK,,,arsenal
+/opt/omniscient/autoenv_config,Configuration for autoenv virtual environment tool.,/opt/omniscient/init,CLI Tool,Open or inspect manually,OK,,,autoenv_config
+/opt/omniscient/autoenv_master_installer.sh,Master installer for autoenv across environments.,/opt/omniscient/init,Installation / Setup,bash autoenv_master_installer.sh,OK,,alias autoenv_master_installer='bash /opt/omniscient/scripts/autoenv_master_installer.sh',autoenv_master_installer.sh
+/opt/omniscient/autogen_omniscient_structure.sh,Autogenerates the full Omniscient directory structure.,/opt/omniscient/init,Misc / Review,bash autogen_omniscient_structure.sh,OK,,alias autogen_omniscient_structure='bash /opt/omniscient/scripts/autogen_omniscient_structure.sh',autogen_omniscient_structure.sh
+/opt/omniscient/autohtmltopdf,Tool or script to automatically convert HTML files to PDF.,/opt/omniscient/init,Misc / Review,Open or inspect manually,OK,,,autohtmltopdf
+/opt/omniscient/autoimgshot2.py,Python script to take automatic image screenshots.,/opt/omniscient/init,Misc / Review,python3 autoimgshot2.py,OK,,alias autoimgshot2='python3 /opt/omniscient/scripts/autoimgshot2.py',autoimgshot2.py
+/opt/omniscient/automate-zap-security-tests-with-selenium-webdriver-8f72a8811524,TBD - please review,/opt/omniscient/init,Misc / Review,Open or inspect manually,Please review content,,,automate-zap-security-tests-with-selenium-webdriver-8f72a8811524
+/opt/omniscient/autostart_ollama_service.sh,Autostarts the Ollama LLM service on boot or init.,/opt/omniscient/init,AI Processing,bash autostart_ollama_service.sh,OK,,alias autostart_ollama_service='bash /opt/omniscient/scripts/autostart_ollama_service.sh',autostart_ollama_service.sh
+/opt/omniscient/awesome.code-workspace,VSCode workspace config file.,/opt/omniscient/gui,Interface / UI,Open or inspect manually,OK,,,awesome.code-workspace
+/opt/omniscient/bashenvcreationstation,Tool or script for setting up bash environment configurations.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,bashenvcreationstation
+/opt/omniscient/BashGodMode,Aggressive Bash shell modification or automation tool.,/opt/omniscient/other,CLI Tool,Open or inspect manually,OK,,,BashGodMode
+/opt/omniscient/bashrc2all,Script to copy or propagate .bashrc to all users.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,bashrc2all
+/opt/omniscient/bashrc_list,List or backup of bashrc files or profiles.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,bashrc_list
+/opt/omniscient/bash_scripts_interpreter_ollama_pipeline.sh,Script to interpret bash scripts using the Ollama LLM pipeline.,/opt/omniscient/init,AI Processing,bash bash_scripts_interpreter_ollama_pipeline.sh,OK,,alias bash_scripts_interpreter_ollama_pipeline='bash /opt/omniscient/scripts/bash_scripts_interpreter_ollama_pipeline.sh',bash_scripts_interpreter_ollama_pipeline.sh
+/opt/omniscient/basic_ai_tools.py,Basic AI utility functions or standalone tools in Python.,/opt/omniscient/scripts,CLI Tool,python3 basic_ai_tools.py,OK,,alias basic_ai_tools='python3 /opt/omniscient/scripts/basic_ai_tools.py',basic_ai_tools.py
+/opt/omniscient/betterca-install.sh,Script to install an improved certificate authority (CA) setup.,/opt/omniscient/init,Misc / Review,bash betterca-install.sh,OK,,alias betterca-install='bash /opt/omniscient/scripts/betterca-install.sh',betterca-install.sh
+/opt/omniscient/bin,Directory of executable tools or scripts.,/opt/omniscient/bin,CLI Tool,Open or inspect manually,OK,,,bin
+/opt/omniscient/bin_global_backup.zip,Zip archive backup of global bin directory.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,bin_global_backup.zip
+/opt/omniscient/bin_master,Main collection of binary/executable scripts.,/opt/omniscient/bin,Misc / Review,Open or inspect manually,OK,,,bin_master
+/opt/omniscient/bin_system,System-wide binary scripts or utilities.,/opt/omniscient/bin,Misc / Review,Open or inspect manually,OK,,,bin_system
+/opt/omniscient/bin.zip,Compressed archive of bin directory.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,bin.zip
+/opt/omniscient/blackhatlmpipeline.sh,Offensive LLM-based blackhat testing pipeline.,/opt/omniscient/init,AI Processing,bash blackhatlmpipeline.sh,OK,,alias blackhatlmpipeline='bash /opt/omniscient/scripts/blackhatlmpipeline.sh',blackhatlmpipeline.sh
+/opt/omniscient/cases,"Case-related files, possibly digital forensics evidence or OSINT targets.",/opt/omniscient/forensics,Misc / Review,Open or inspect manually,OK,,,cases
+/opt/omniscient/centralized_ai_with_fastapi.zip,Packaged FastAPI-based centralized AI interface.,/opt/omniscient/other,AI Processing,Open or inspect manually,OK,,,centralized_ai_with_fastapi.zip
+/opt/omniscient/check_microphone,Script to test or validate microphone input.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,check_microphone
+/opt/omniscient/compiled,Compiled binaries or bytecode output directory.,/opt/omniscient/other,Executable Files,Open or inspect manually,OK,,,compiled
+/opt/omniscient/core,Core scripts or foundational system modules.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,core
+/opt/omniscient/crons,Cron job definitions or templates.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,crons
+/opt/omniscient/ctl.log,Log file for 'ctl' tool or command execution output.,/opt/omniscient/logs,CLI Tool,less ctl.log,OK,/opt/omniscient/logs/ctl.log,,ctl.log
+/opt/omniscient/Dallas_Reed_dossier..md,Markdown dossier/profile on target 'Dallas Reed'.,/opt/omniscient/docs,Misc / Review,Open or inspect manually,OK,,,Dallas_Reed_dossier..md
+/opt/omniscient/dallas_reed_storyboard.md,Storyboard or timeline markdown for Dallas Reed investigation.,/opt/omniscient/docs,Misc / Review,Open or inspect manually,OK,,,dallas_reed_storyboard.md
+/opt/omniscient/ddgs,Likely DuckDuckGo Search tool or dataset.,/opt/omniscient/other,CLI Tool,Open or inspect manually,OK,,,ddgs
+/opt/omniscient/deploymetasploit.sh,Script to deploy or initialize Metasploit.,/opt/omniscient/init,Misc / Review,bash deploymetasploit.sh,OK,,alias deploymetasploit='bash /opt/omniscient/scripts/deploymetasploit.sh',deploymetasploit.sh
+/opt/omniscient/detect_missing_pip.sh,Script to find and fix missing pip packages.,/opt/omniscient/init,Misc / Review,bash detect_missing_pip.sh,OK,,alias detect_missing_pip='bash /opt/omniscient/scripts/detect_missing_pip.sh',detect_missing_pip.sh
+/opt/omniscient/dfir_crawler.py,Digital Forensics and Incident Response crawler in Python.,/opt/omniscient/scripts,Data Collection,python3 dfir_crawler.py,OK,,alias dfir_crawler='python3 /opt/omniscient/scripts/dfir_crawler.py',dfir_crawler.py
+/opt/omniscient/digital_forensics_links.txt,Reference list of digital forensics resources and tools.,/opt/omniscient/docs,CLI Tool,Open or inspect manually,OK,,,digital_forensics_links.txt
+/opt/omniscient/directories.log,Log of directory structures scanned or managed.,/opt/omniscient/logs,Misc / Review,less directories.log,OK,/opt/omniscient/logs/directories.log,,directories.log
+/opt/omniscient/DIRECTORY_LISTING,Flat list or snapshot of all files/directories in the framework.,/opt/omniscient/other,Misc / Review,Open or inspect manually,OK,,,DIRECTORY_LISTING
+/opt/omniscient/dirhunt,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,dirhunt
+/opt/omniscient/dirsum,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,dirsum
+/opt/omniscient/dockers,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,dockers
+/opt/omniscient/docs,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,docs
+/opt/omniscient/docx2txt,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,docx2txt
+/opt/omniscient/dorks,TBD - please review,/opt/omniscient/offensive,Misc / Review,Open or inspect manually,Please review content,,,dorks
+/opt/omniscient/e2fscheck,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,e2fscheck
+/opt/omniscient/edit_custom_chatgpt_ai_agents.txt,TBD - please review,/opt/omniscient/docs,Misc / Review,Open or inspect manually,Please review content,,,edit_custom_chatgpt_ai_agents.txt
+/opt/omniscient/embed_python_shebang,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,embed_python_shebang
+/opt/omniscient/emergency.swap.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash emergency.swap.sh,Please review content,,alias emergency='bash /opt/omniscient/scripts/emergency.swap.sh',emergency.swap.sh
+/opt/omniscient/enable_venv,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,enable_venv
+/opt/omniscient/engram_omniscient_remote_sshfs_workspace.code-workspace,TBD - please review,/opt/omniscient/gui,Misc / Review,Open or inspect manually,Please review content,,,engram_omniscient_remote_sshfs_workspace.code-workspace
+/opt/omniscient/env.bak,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,env.bak
+/opt/omniscient/ENVIRONMENTS,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,ENVIRONMENTS
+/opt/omniscient/env_lists.log,TBD - please review,/opt/omniscient/logs,Misc / Review,less env_lists.log,Please review content,/opt/omniscient/logs/env_lists.log,,env_lists.log
+/opt/omniscient/env_on_path_exe,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,env_on_path_exe
+/opt/omniscient/env.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash env.sh,Please review content,,alias env='bash /opt/omniscient/scripts/env.sh',env.sh
+/opt/omniscient/env_sql_path,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,env_sql_path
+/opt/omniscient/ettercap-setup.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash ettercap-setup.sh,Please review content,,alias ettercap-setup='bash /opt/omniscient/scripts/ettercap-setup.sh',ettercap-setup.sh
+/opt/omniscient/exploitdb,TBD - please review,/opt/omniscient/offensive,Misc / Review,Open or inspect manually,Please review content,,,exploitdb
+/opt/omniscient/factored_scripts,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,factored_scripts
+/opt/omniscient/🌌 Features of Omniscient AI Recursive F,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,🌌 Features of Omniscient AI Recursive F
+/opt/omniscient/filesystem_profile.log,TBD - please review,/opt/omniscient/logs,Misc / Review,less filesystem_profile.log,Please review content,/opt/omniscient/logs/filesystem_profile.log,,filesystem_profile.log
+/opt/omniscient/file_watcher.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash file_watcher.sh,Please review content,,alias file_watcher='bash /opt/omniscient/scripts/file_watcher.sh',file_watcher.sh
+/opt/omniscient/flipperS,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,flipperS
+/opt/omniscient/forensics,TBD - please review,/opt/omniscient/forensics,Misc / Review,Open or inspect manually,Please review content,,,forensics
+/opt/omniscient/forgitboutit,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,forgitboutit
+/opt/omniscient/for_git_master_repos_list,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,for_git_master_repos_list
+/opt/omniscient/FULLS.code-workspace,TBD - please review,/opt/omniscient/gui,Misc / Review,Open or inspect manually,Please review content,,,FULLS.code-workspace
+/opt/omniscient/fwlogwatch,TBD - please review,/opt/omniscient/logs,Misc / Review,Open or inspect manually,Please review content,/opt/omniscient/logs/fwlogwatch,,fwlogwatch
+/opt/omniscient/gdeb_installer.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash gdeb_installer.sh,Please review content,,alias gdeb_installer='bash /opt/omniscient/scripts/gdeb_installer.sh',gdeb_installer.sh
+/opt/omniscient/generate_omniscient_immutable_sql_manifest.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash generate_omniscient_immutable_sql_manifest.sh,Please review content,,alias generate_omniscient_immutable_sql_manifest='bash /opt/omniscient/scripts/generate_omniscient_immutable_sql_manifest.sh',generate_omniscient_immutable_sql_manifest.sh
+/opt/omniscient/gguf_models_index.csv,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gguf_models_index.csv
+/opt/omniscient/gguf_models_index.csvZone.Identifier,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gguf_models_index.csvZone.Identifier
+/opt/omniscient/gitcreds.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash gitcreds.sh,Please review content,,alias gitcreds='bash /opt/omniscient/scripts/gitcreds.sh',gitcreds.sh
+/opt/omniscient/github_help.md,TBD - please review,/opt/omniscient/docs,Misc / Review,Open or inspect manually,Please review content,,,github_help.md
+/opt/omniscient/gitmanager,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gitmanager
+/opt/omniscient/git_remote_add_orgin.txt,TBD - please review,/opt/omniscient/docs,Misc / Review,Open or inspect manually,Please review content,,,git_remote_add_orgin.txt
+/opt/omniscient/gopllm_output.txt,TBD - please review,/opt/omniscient/docs,Misc / Review,Open or inspect manually,Please review content,,,gopllm_output.txt
+/opt/omniscient/gpt4all_api_key,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gpt4all_api_key
+/opt/omniscient/gpt4allemailbomb2,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gpt4allemailbomb2
+/opt/omniscient/gpt4omni,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gpt4omni
+/opt/omniscient/gui,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,gui
+/opt/omniscient/gui_deb_installer.py,TBD - please review,/opt/omniscient/init,Misc / Review,python3 gui_deb_installer.py,Please review content,,alias gui_deb_installer='python3 /opt/omniscient/scripts/gui_deb_installer.py',gui_deb_installer.py
+/opt/omniscient/gui_deb_installer_x.py,TBD - please review,/opt/omniscient/init,Misc / Review,python3 gui_deb_installer_x.py,Please review content,,alias gui_deb_installer_x='python3 /opt/omniscient/scripts/gui_deb_installer_x.py',gui_deb_installer_x.py
+/opt/omniscient/hacker_gpt_shell.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash hacker_gpt_shell.sh,Please review content,,alias hacker_gpt_shell='bash /opt/omniscient/scripts/hacker_gpt_shell.sh',hacker_gpt_shell.sh
+/opt/omniscient/HARD_ALIASES,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,HARD_ALIASES
+/opt/omniscient/HARD_ALIASES.save,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,HARD_ALIASES.save
+/opt/omniscient/hftoken _env_var.txt,TBD - please review,/opt/omniscient/docs,Misc / Review,Open or inspect manually,Please review content,,,hftoken _env_var.txt
+/opt/omniscient/html,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,html
+/opt/omniscient/html2pdf,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,html2pdf
+/opt/omniscient/http_tunnel,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,http_tunnel
+/opt/omniscient/id_digocean_rsa,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,id_digocean_rsa
+/opt/omniscient/id_digocean_rsa.pub,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,id_digocean_rsa.pub
+/opt/omniscient/iedm_final_package_bundle.zip,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,iedm_final_package_bundle.zip
+/opt/omniscient/iedm_flat_source_devkit.zip,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,iedm_flat_source_devkit.zip
+/opt/omniscient/Immutable Subsystem Structure.html,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,Immutable Subsystem Structure.html
+/opt/omniscient/imports,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,imports
+/opt/omniscient/import_sqldb.py,TBD - please review,/opt/omniscient/ai,Misc / Review,python3 import_sqldb.py,Please review content,,alias import_sqldb='python3 /opt/omniscient/scripts/import_sqldb.py',import_sqldb.py
+/opt/omniscient/import_sqldb.sh,TBD - please review,/opt/omniscient/init,Misc / Review,bash import_sqldb.sh,Please review content,,alias import_sqldb='bash /opt/omniscient/scripts/import_sqldb.sh',import_sqldb.sh
+/opt/omniscient/impreza_basemap_stage_1.bin,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,impreza_basemap_stage_1.bin
+/opt/omniscient/impreza_operations.code-workspace,TBD - please review,/opt/omniscient/gui,Misc / Review,Open or inspect manually,Please review content,,,impreza_operations.code-workspace
+/opt/omniscient/impreza_remote_code.code-workspace,TBD - please review,/opt/omniscient/gui,Misc / Review,Open or inspect manually,Please review content,,,impreza_remote_code.code-workspace
+/opt/omniscient/impreza_stage_1_vf22_12psi_aggressive_idle875.bin,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,impreza_stage_1_vf22_12psi_aggressive_idle875.bin
+/opt/omniscient/impreza_staged_map_vf22_clean_12psi.bin,TBD - please review,/opt/omniscient/other,Misc / Review,Open or inspect manually,Please review content,,,impreza_staged_map_vf22_clean_12psi.bin

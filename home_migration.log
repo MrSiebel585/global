@@ -1,0 +1,126 @@
+[2025-06-20 04:52:46] 🚀 Starting home directory Omniscient file migration...
+[2025-06-20 04:52:46] ✅ Moved: e2fscheck → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: readme.md → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: init.streamlit-git-source.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:46] ✅ Moved: 1000000424.jpg → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: env.bak → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: Music.zip → /opt/omniscient/imports/home_migrated/archives
+[2025-06-20 04:52:46] ✅ Moved: venv.html → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: DIRECTORY_LISTING → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: digital_forensics_links.txt → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:46] ✅ Moved: embed_python_shebang → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: .bash_history-14387.tmp → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: global_execution.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: run_dallas_voice.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: omniscient_flatfiles_contents.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:47] ⚠️  Duplicate: omniscient_flatfiles_contents.log → renamed to omniscient_flatfiles_contents_copy-1.log
+[2025-06-20 04:52:47] ❌ ERROR moving: omniscient_flatfiles_contents.log
+[2025-06-20 04:52:47] ✅ Moved: Dallas_Reed_Corp.md → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: wwwtakeownership → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: creatempcstems → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: repair_omniscient.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:47] ✅ Moved: 1000000424(1).jpg → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: managelargevenv → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: HARD_ALIASES.save → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: impreza_basemap_stage_ecuflash_model.bin → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: dallas_voiceover_final.mp3 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: hardhatc2cframework → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: index.internals.js.gz → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: generateonsetslocal.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: ensurelmstudiostart.py → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: enable_venv → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: managecriticaldiskspacestartup → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: lm_studio_readme.md → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: html2pdf → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: gpt4allemailbomb2 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: import_sqldb.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: .gtkrc-2.0 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: help → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: smartsystemfixstartup → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: edit_custom_chatgpt_ai_agents.txt → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: fl_studio_automation.md → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: dirhunt → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: See → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: inject_autoenv → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: HARD_ALIASES → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: bash.bashrc → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: pyenv_install.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:47] ✅ Moved: init.streamlit-webrtc-git-source.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:47] ✅ Moved: shell_recovery.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:47] ✅ Moved: .bashrc → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: dropoffdisplaymanager → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:47] ✅ Moved: init.streamlit-agent-git-source.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:47] ✅ Moved: filesystem_profile.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:47] ✅ Moved: dallas_raw.wav → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: Omniscient.tar.xz → /opt/omniscient/imports/home_migrated/archives
+[2025-06-20 04:52:48] ✅ Moved: mergeraidswapmigration → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: testme → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: .lesshst → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: venv_howto_readme.html → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: id_digocean_rsa.pub → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: bin bash omniscientctlreadme.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: dirsum → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: ID_SSN.jpg → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: osint_engine_package.zip → /opt/omniscient/imports/home_migrated/archives
+[2025-06-20 04:52:48] ✅ Moved: recovery_shell.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: hf-codegen-agent.sh → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:48] ✅ Moved: [25 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: bashenvcreationstation → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: acl_lists → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: .wget-hsts → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: bashrcbackup → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: hacker_gpt_shell.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: bashrc_list → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: omniscientctl_error.log → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:48] ✅ Moved: .xsession-errors → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: swapdisplayman → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: digest_readme.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: hugging_face_api_export.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: Untitled Document 2 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: omniscientchangelog → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: project-vitour-overview.md → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: compare_backups → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: install_ai_comment_responder.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:48] ✅ Moved: .sudo_as_admin_successful → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: install_lmstudio_omniscient (1).sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: git_remote_add_orgin.txt → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: env_sql_path → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: test_agents → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: omniscient_flatfiles_errors.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:48] ⚠️  Duplicate: omniscient_flatfiles_errors.log → renamed to omniscient_flatfiles_errors_copy-1.log
+[2025-06-20 04:52:48] ❌ ERROR moving: omniscient_flatfiles_errors.log
+[2025-06-20 04:52:48] ✅ Moved: omniorganize.py → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: .bashrc.bak.1750389232 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: env_on_path_exe → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: symlinks → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved:  Miss Monique @  Bali, Indonesia 2024 [Melodic Techno⧸ Progressive House DJ Mix].mp3 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:48] ✅ Moved: readable_files.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:48] ✅ Moved: admin_interface → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: flat_files_omniscient.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:49] ✅ Moved: LM-Studio-0.3.16-8-x64.AppImage → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: make_voiceover.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: install_lmstudio_omniscient.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:49] ✅ Moved: WRXDynoKiller.html → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: omniscient_llm_router.zip → /opt/omniscient/imports/home_migrated/archives
+[2025-06-20 04:52:49] ✅ Moved: jok3rframeworkdocker → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: omniscientctl_lmstudio.py → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:49] ✅ Moved: http_tunnel → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: impreza_basemap_tune.bin → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: arsenal → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: fixallconfig.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: .lmstudio-home-pointer → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: omniscientctlollama → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:49] ✅ Moved: linux_task_timer.py → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: ai-content-writer.zip → /opt/omniscient/imports/home_migrated/archives
+[2025-06-20 04:52:49] ✅ Moved: .bashrc.broken → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: spleetersplit → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: .bash_history → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: hf_codegen_agent.sh → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:49] ✅ Moved: install_clean_pyenv.sh → /opt/omniscient/imports/home_migrated/installers
+[2025-06-20 04:52:49] ✅ Moved: pyenv_repair.log → /opt/omniscient/imports/home_migrated/logs
+[2025-06-20 04:52:49] ✅ Moved: enable_all_executables.sh → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: Untitled Document 3 → /opt/omniscient/imports/home_migrated/misc
+[2025-06-20 04:52:49] ✅ Moved: chatgpt_omniscient_structure_conversation.md → /opt/omniscient/imports/home_migrated/agents
+[2025-06-20 04:52:49] 🎯 Home directory file migration complete.
+[2025-06-20 04:52:49] 📂 Files now organized under: /opt/omniscient/imports/home_migrated
+[2025-06-20 04:52:49] 📄 Log file: /opt/omniscient/logs/home_migration.log

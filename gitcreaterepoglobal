@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# Set default GitHub user identity and repository details
+GIT_USER="MrSiebel585"
+GIT_EMAIL="jeremye585@outlook.com"
+REPO_NAME="global"
+GITHUB_TOKEN="your_actual_personal_access_token"  # Replace with your actual GitHub token
+
+# Function to set up Git identity
+set_git_identity() {
+  echo "Setting up Git user identity..."
+  git config --global user.name "$GIT_USER"
+  git config --global user.email "$GIT_EMAIL"
+  echo "Git identity set to $GIT_USER <$GIT_EMAIL>"
+}
+
+# Function to initialize the Git repository
+initialize_git_repo() {
+  echo "Initializing Git repository in $repo_dir..."
+  git init "$repo_dir"
+  cd "$repo_dir" || { echo "Failed to navigate to $repo_dir"; exit 1; }
+
+  echo "# $REPO_NAME" >> README.md
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+}
+
+# Function to configure the remote origin and push
+push_to_github() {
+  # Check if the GitHub repository exists by using the API
+  RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/$GIT_USER/$REPO_NAME)
+
+  # If the repository doesn't exist, exit with an error
+  if [ "$RESPONSE" -ne 200 ]; then
+    echo "Error: Repository $REPO_NAME does not exist on GitHub. Please create it first."
+    exit 1
+  fi
+
+  # Set the remote URL with the token
+  git remote remove origin 2>/dev/null  # Remove existing origin if it exists
+  git remote add origin https://"$GITHUB_TOKEN"@github.com/"$GIT_USER"/"$REPO_NAME".git
+
+  # Push to GitHub
+  git push -u origin main
+  echo "Repository $REPO_NAME has been successfully pushed to GitHub!"
+}
+
+# Main script logic
+echo "Welcome to the GitHub repository setup script!"
+
+# Ask for the local directory where the Git repo is located
+read -p "Enter the directory path where your Git repo is located: " repo_dir
+
+# Check if directory exists, and create it if necessary
+if [ ! -d "$repo_dir" ]; then
+  echo "Directory $repo_dir does not exist. Creating it now..."
+  mkdir -p "$repo_dir" || { echo "Failed to create directory $repo_dir"; exit 1; }
+fi
+
+# Set Git identity (user name and email)
+set_git_identity
+
+# Initialize Git repo and add files
+initialize_git_repo
+
+# Push to GitHub
+push_to_github

@@ -1,0 +1,113 @@
+/opt/omniscient/imports/home_migrated
+├── agents
+│   ├── chatgpt_omniscient_structure_conversation.md
+│   ├── hf-codegen-agent.sh
+│   ├── hf_codegen_agent.sh
+│   ├── omniscientctl_error.log
+│   ├── omniscientctl_lmstudio.py
+│   └── omniscientctlollama
+├── archives
+│   ├── ai-content-writer.zip
+│   ├── Music.zip
+│   ├── omniscient_llm_router.zip
+│   ├── Omniscient.tar.xz
+│   └── osint_engine_package.zip
+├── installers
+│   ├── init.streamlit-agent-git-source.sh
+│   ├── init.streamlit-git-source.sh
+│   ├── init.streamlit-webrtc-git-source.sh
+│   ├── install_ai_comment_responder.sh
+│   ├── install_clean_pyenv.sh
+│   └── install_lmstudio_omniscient.sh
+├── logs
+│   ├── filesystem_profile.log
+│   ├── flat_files_omniscient.log
+│   ├── omniscient_flatfiles_contents.log
+│   ├── omniscient_flatfiles_errors.log
+│   ├── pyenv_install.log
+│   ├── pyenv_repair.log
+│   ├── readable_files.log
+│   ├── repair_omniscient.log
+│   └── shell_recovery.log
+└── misc
+    ├── 1000000424(1).jpg
+    ├── 1000000424.jpg
+    ├── [25
+    ├── acl_lists
+    ├── admin_interface
+    ├── arsenal
+    ├── bash.bashrc
+    ├── bashenvcreationstation
+    ├── bashrcbackup
+    ├── bashrc_list
+    ├── bin bash omniscientctlreadme.sh
+    ├── compare_backups
+    ├── creatempcstems
+    ├── dallas_raw.wav
+    ├── Dallas_Reed_Corp.md
+    ├── dallas_voiceover_final.mp3
+    ├── digest_readme.sh
+    ├── digital_forensics_links.txt
+    ├── DIRECTORY_LISTING
+    ├── dirhunt
+    ├── dirsum
+    ├── dropoffdisplaymanager
+    ├── e2fscheck
+    ├── edit_custom_chatgpt_ai_agents.txt
+    ├── embed_python_shebang
+    ├── enable_all_executables.sh
+    ├── enable_venv
+    ├── ensurelmstudiostart.py
+    ├── env.bak
+    ├── env_on_path_exe
+    ├── env_sql_path
+    ├── fixallconfig.sh
+    ├── fl_studio_automation.md
+    ├── generateonsetslocal.sh
+    ├── git_remote_add_orgin.txt
+    ├── global_execution.sh
+    ├── gpt4allemailbomb2
+    ├── hacker_gpt_shell.sh
+    ├── HARD_ALIASES
+    ├── HARD_ALIASES.save
+    ├── hardhatc2cframework
+    ├── help
+    ├── html2pdf
+    ├── http_tunnel
+    ├── hugging_face_api_export.sh
+    ├── id_digocean_rsa.pub
+    ├── ID_SSN.jpg
+    ├── import_sqldb.sh
+    ├── impreza_basemap_stage_ecuflash_model.bin
+    ├── impreza_basemap_tune.bin
+    ├── index.internals.js.gz
+    ├── inject_autoenv
+    ├── install_lmstudio_omniscient (1).sh
+    ├── jok3rframeworkdocker
+    ├── linux_task_timer.py
+    ├── LM-Studio-0.3.16-8-x64.AppImage
+    ├── lm_studio_readme.md
+    ├── make_voiceover.sh
+    ├── managecriticaldiskspacestartup
+    ├── managelargevenv
+    ├── mergeraidswapmigration
+    ├──  Miss Monique @  Bali, Indonesia 2024 [Melodic Techno⧸ Progressive House DJ Mix].mp3
+    ├── omniorganize.py
+    ├── omniscientchangelog
+    ├── project-vitour-overview.md
+    ├── readme.md
+    ├── recovery_shell.sh
+    ├── run_dallas_voice.sh
+    ├── See
+    ├── smartsystemfixstartup
+    ├── spleetersplit
+    ├── swapdisplayman
+    ├── symlinks
+    ├── test_agents
+    ├── testme
+    ├── Untitled Document 2
+    ├── Untitled Document 3
+    ├── venv_howto_readme.html
+    ├── venv.html
+    ├── WRXDynoKiller.html
+    └── wwwtakeownership

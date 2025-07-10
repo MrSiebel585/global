@@ -1,0 +1,1 @@
+alias omniscientctl_organize='sudo ~/omniscient_home_migrator.sh && sudo bash ~/omniscient_migration_cleanup.sh && sudo bash ~/omniscient_manifest.sh'
