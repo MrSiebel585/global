@@ -1,16 +1,1 @@
-# omniscient-global
-# omniscient-global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
-# global
+https://github.com/MrSiebel585/global/tree/main
